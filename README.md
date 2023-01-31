@@ -40,3 +40,5 @@ A seguir temos o passo a passo para executar o projeto, desde a sua instalação
 - /company/:id/providers -> Listar os fornecedores por empresa, acessada pela rota acima;
 
 2 - No laravel, uso um conceito de reutilização de código bem abrangente, além disso, gosto de usar o máximo de recursos que ele dispõe com finalidade de facilitar o desenvolvimento como observers, scopes, resources, requests, além disso tenho alguns próprios que me auxiliam como Enum, Filters, Services e Repositories.
+
+3 - Fiz uma modificação no retorno dos collections/resource para tirar informações desnecessárias como "meta" entre outras, não é nada no core do Laravel, as modificações podem ser vistas em app/Core; 
